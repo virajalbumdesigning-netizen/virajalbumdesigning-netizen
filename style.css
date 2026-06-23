@@ -58,3 +58,29 @@ footer{
 padding:20px;
 background:#111;
 }
+.gallery{
+    padding:50px 20px;
+    background:#111;
+}
+
+.gallery h2{
+    text-align:center;
+    color:#ffd700;
+    margin-bottom:30px;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.gallery-grid img{
+    width:100%;
+    border-radius:10px;
+    transition:0.4s;
+}
+
+.gallery-grid img:hover{
+    transform:scale(1.05);
+}
